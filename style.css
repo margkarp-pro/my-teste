@@ -62,13 +62,13 @@ a:link, a:visited, a:hover a:active{
     color: #000000;
 }
 
-ul>div{
+nav{
     background-color: #565d4c;
     width: 74%;
     height: 25px;
 }
 
-ul>div>p{
+nav>p{
     font-family: "Playfair Display", serif;
     color: #2b2a2a;
     font-size: 15px;
