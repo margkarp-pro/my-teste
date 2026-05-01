@@ -9,6 +9,13 @@ html{
     font-style: bold;
 }
 
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
 header>div{
     display:flex;
     justify-content: center;
@@ -18,12 +25,13 @@ header>div{
 }
 
 header>div>img{
-    width: 300px;
+    width: 400px;
 
 }
 
 h1{
     font-family: "Playfair Display", serif;
+    font-size: 50px;
     font-optical-sizing: auto;
     font-weight: 900;
     font-style: normal;
@@ -35,10 +43,13 @@ h1{
 ul{
     list-style-type: none;
     display: flex;
-    gap: 20px;
+    flex-direction: row;
+    justify-content: center;
     background-color: #78826a;
-    width: 1100px;
+    gap: 20px;
+    width: 1300px;
     padding: 10px;
+    border-radius: 30px;
 }
 
 li{
@@ -51,7 +62,16 @@ a:link, a:visited, a:hover a:active{
     color: #000000;
 }
 
-ul>li>div{
-    background-color: #000000;
-    width: 500px;
+ul>div{
+    background-color: #565d4c;
+    width: 74%;
+    height: 25px;
+}
+
+ul>div>p{
+    font-family: "Playfair Display", serif;
+    color: #2b2a2a;
+    font-size: 15px;
+    margin-top: 1px;
+    margin-left: 5px;
 }
