@@ -9,7 +9,15 @@ html{
     font-style: bold;
 }
 
-header>img{
+header>div{
+    display:flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    margin-top: 40px;
+}
+
+header>div>img{
     width: 300px;
 
 }
@@ -20,18 +28,30 @@ h1{
     font-weight: 900;
     font-style: normal;
     color: #000000;
+    text-align: center;
+    width: 300px;
 }
 
 ul{
     list-style-type: none;
+    display: flex;
+    gap: 20px;
+    background-color: #78826a;
+    width: 1100px;
+    padding: 10px;
 }
 
 li{
-    font-family: Playfair Display, serif;
+    font-family: "Playfair Display", serif;
     text-decoration: none;
 }
 
 a:link, a:visited, a:hover a:active{
     text-decoration: none;
     color: #000000;
+}
+
+ul>li>div{
+    background-color: #000000;
+    width: 500px;
 }
